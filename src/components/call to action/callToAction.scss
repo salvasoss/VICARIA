@@ -1,0 +1,23 @@
+.callToAction {
+    display: flex;
+    flex-direction: row;
+
+    .callToActionImg {
+        width: 30rem;
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .callToActionText{
+        display: flex;
+        flex-direction: column;
+        .text {
+            h1{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
