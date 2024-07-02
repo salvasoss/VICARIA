@@ -4,15 +4,12 @@ import React from "react";
 export const CallToAction = () => {
     return (
         <div className="callToAction">
-            <div className="callToActionImg"><img src="../img/LOGO VICARIA PNG.png" alt="productos vicaria" /></div>
-
-            <div className="callToActionText"> 
-                <div className="text"><h1> Vicaria, 70 años de experiencia</h1></div>
-                <div>
-                  <a className="contactButton"> CONTACTANOS</a>  
-                </div>
+            <div className="content"> 
+                <h1> CALIDAD. EXPERIENCIA. RENDIMIENTO.</h1>
+                <h2> Sella Grietas Vicaria, desde <b> 1954 </b>, con mas de <b> 70 </b> años en el mercado y con los mejores precios <b> Mayoristas </b> y Minoristas del pais! </h2>
+                <button className="contactButton"> PRECIOS MAYORISTAS/MINORISTAS</button>
             </div>
-
+           {/* <img src="./img/callToAction.png" alt="sella grietas vicaria" /> */}
         </div>
     )
 }
