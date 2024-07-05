@@ -1,17 +1,18 @@
+
 .introduction {
-    width: 100vw;
-    height: 50vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
 }
 
 .callToAction {
-    width: 22vw;
-    height: 44vh;
+    width: 24vw;
+    height: 52vh;
     background-color: #D3311C;
-    position: absolute;
-    top: 22vh;
-    left: 25vw;
+    // position: absolute;
+    // top: 22vh;
+    // left: 25vw;
     padding: 2rem;
     border-radius: 22px 0px 21px 0px;
     border: 3px solid #ffffff9c;
@@ -20,7 +21,7 @@
     display: flex;
     flex-direction: column;
     
-    gap: 1.8rem;
+    gap: 1rem;
     h1 {
         color: white;
         font-weight: bold;
@@ -31,6 +32,7 @@
         color: white;
         font-weight: 200;
         font-size: 1.3rem;
+        text-align: center;
     }
 
     .contactButton {
@@ -53,3 +55,6 @@
    } 
 }
 
+.carousel {
+    width: 37vw;
+}
