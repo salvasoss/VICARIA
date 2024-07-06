@@ -2,25 +2,25 @@ import React from 'react';
 
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-
+import "./carousel.scss";
 
 const ControlledCarousel = () => {
   const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex) => {
+  const handleSelect = (selectedIndex,) => {
     setIndex(selectedIndex);
   };
 
   return (
-    <Carousel interval = {4000} controls = {false} indicators = {false} activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-        <img src='./img/bloquecilindros.jpg' alt='bloque de cilindros' text="First slide"/>
+    <Carousel interval = {4000} controls = {false} indicators = {false} activeIndex={index} onSelect={handleSelect} slide = {true}>
+      <Carousel.Item as= "div" className='carouselDivImg'>
+        <img src='./img/bloque de cilindros.jpg' alt='bloque de cilindros' text="First slide"/>
       </Carousel.Item>
-      <Carousel.Item>
-        <img src='./img/calefaccion.jpg' alt=' calefaccion' text="Second slide" />
+      <Carousel.Item as= "div" className='carouselDivImg'>
+        <img src='./img/radiador de calefaccion.jpg' alt=' calefaccion' text="Second slide" />
       </Carousel.Item>
-      <Carousel.Item>
-        <img src='./img/radiadorauto.jpg' alt='radiador de auto' text="Third slide" />
+      <Carousel.Item as= "div" className='carouselDivImg'>
+        <img src='./img/radiador de auto.jpg' alt='radiador de auto' text="Third slide" />
       </Carousel.Item>
     </Carousel>
   );

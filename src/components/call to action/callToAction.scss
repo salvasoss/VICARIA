@@ -1,18 +1,65 @@
+// .introduction {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     margin-top: 5rem;
+// }
+
+// .callToAction {
+//     width: 25%;
+//     height: auto; 
+//     background-color: #D3311C;
+//     padding: 2rem;
+//     border-radius: 22px 0px 21px 0px;
+//     border: 3px solid #ffffff9c;
+// }
+
+// .callToAction .content {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 1rem;
+// }
+
+// .callToAction .content h1 {
+//     color: white;
+//     font-weight: bold;
+//     font-size: 3rem; /* Ajustar el tamaño de fuente para tamaños de pantalla más pequeños */
+//     text-align: center;
+// }
+
+// .callToAction .content h2 {
+//     color: white;
+//     font-weight: 200;
+//     font-size: 1.2rem; /* Ajustar el tamaño de fuente para tamaños de pantalla más pequeños */
+// }
+
+// .callToAction .content .contactButton {
+//     background-color: #01B457;
+//     border: 1px solid #01B457;
+//     cursor: pointer;
+//     color: #ffffff;
+//     font-family: Arial;
+//     font-size: 1rem; /* Ajustar el tamaño de fuente para tamaños de pantalla más pequeños */
+//     font-weight: bold;
+//     padding: 1rem;
+//     text-decoration: none;
+//     width: 100%; 
+// }
+
+
+
 
 .introduction {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin: 7.3rem;
 }
 
 .callToAction {
-    width: 24vw;
-    height: 52vh;
+    width: 30rem;
+    height: auto;
     background-color: #D3311C;
-    // position: absolute;
-    // top: 22vh;
-    // left: 25vw;
     padding: 2rem;
     border-radius: 22px 0px 21px 0px;
     border: 3px solid #ffffff9c;
@@ -20,15 +67,14 @@
    .content{
     display: flex;
     flex-direction: column;
-    
     gap: 1rem;
-    h1 {
+    h2 {
         color: white;
         font-weight: bold;
         font-size: 3.5rem;
     }
 
-    h2{
+    h3{
         color: white;
         font-weight: 200;
         font-size: 1.3rem;
@@ -41,10 +87,11 @@
         cursor:pointer;
         color:#ffffff;
         font-family:Arial;
-        font-size:15px;
+        font-size:1rem;
         font-weight:bold;
         padding: 1rem;
         text-decoration:none;
+        width: 100%;
     
         &:hover {
         font-weight: 700;
@@ -56,5 +103,5 @@
 }
 
 .carousel {
-    width: 37vw;
+    width: 40rem;
 }
