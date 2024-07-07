@@ -5,24 +5,24 @@ export const Beneficts = () => {
     return (
         <div className="benefits">
             <div className="benefit">
-                <h2> +70 años </h2>
-                <h3> Desde 1954 </h3>
+                <h3> +70 años </h3>
+                <h4> Desde 1954 </h4>
             </div>
             <div className="benefit">
-                <h2>Precios  </h2>
-                <h3> Mayoristas y Minoristas</h3>
+                <h3>Precios  </h3>
+                <h4> Mayoristas y Minoristas</h4>
             </div>
             <div className="benefit">
-                <h2> Envios  </h2>
-                <h3> A todo el pais</h3>
+                <h3> Envios  </h3>
+                <h4> A todo el pais</h4>
             </div>
             <div className="benefit">
-                <h2> Calidad </h2>
-                <h3> Materia prima importada</h3>
+                <h3> Calidad </h3>
+                <h4> Materia prima importada</h4>
             </div>
             <div className="benefit">
-                <h2> Vencimiento  </h2>
-                <h3> Sin vencimiento</h3>
+                <h3> Vencimiento  </h3>
+                <h4> Sin vencimiento</h4>
             </div>
         </div>
     )

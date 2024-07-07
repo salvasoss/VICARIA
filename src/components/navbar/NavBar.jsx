@@ -49,7 +49,7 @@ export const NavBar = () => {
                     </div>
                 </nav>
                 <video autoPlay loop muted className="videoFondo">
-                    <source src="./videos/videofondoazul.mp4    " type="video/mp4" />
+                    <source src="./videos/videofondoblanco.mp4" type="video/mp4" />
                 </video>
             </header>
         </div>
