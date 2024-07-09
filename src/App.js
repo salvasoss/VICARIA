@@ -1,14 +1,15 @@
-import { NavBar } from './components/navbar/NavBar.jsx';
+
 import './App.scss';
-import { Body } from './components/body/Body.jsx';
+import { Header } from './components/header/Header.jsx';
+import { Main } from './components/main/Main.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
     <div className="App">
-       <Body> </Body>
-          
+        <Header/>
+        <Main/>
     </div>
   );
 }

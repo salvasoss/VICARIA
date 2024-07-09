@@ -6,8 +6,6 @@ export const NavBar = () => {
         <div>
             <header>
 
-
-
                 {/* <nav className="navbar">
                     <ul className="navItems">
                     <li> <img src="../img/LOGO VICARIA PNG.png" alt="logo sella grietas vicaria" className="logo" /></li>
@@ -17,6 +15,8 @@ export const NavBar = () => {
                         <li>  <a href=" "> Acerca de Vicaria</a>  </li>
                     </ul>
                 </nav> */}
+
+
 
                 <div className="navbarAnnouncement">
                     <h3> ¡ENVIOS A TODO EL PAIS!</h3>
@@ -48,9 +48,8 @@ export const NavBar = () => {
                         </ul>
                     </div>
                 </nav>
-                <video autoPlay loop muted className="videoFondo">
-                    <source src="./videos/videofondoblanco.mp4" type="video/mp4" />
-                </video>
+
+                
             </header>
         </div>
     )

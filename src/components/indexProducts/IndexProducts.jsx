@@ -5,11 +5,12 @@ export const IndexProducts = () => {
     return (
         <div className="backgroundContainer">
             <div className="productsTitle"> 
-                <h3> Nuestros Productos</h3>
+                <h3> NUESTROS PRODUCTOS</h3>
                 <h4> Con mas de 70 años de experiencia, hemos desarrollado la formula perfecta para cada producto, adecuandose a la necesidad del comprador. </h4>
             </div>
+
             <div className="productsContainer">
-                <div className="indexProducts">
+               
 
                     <a href="">
 
@@ -51,7 +52,7 @@ export const IndexProducts = () => {
 
                     </a>
                 </div>
-            </div>
+           
         </div>
 
     )
