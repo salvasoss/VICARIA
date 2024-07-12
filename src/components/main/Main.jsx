@@ -4,6 +4,7 @@ import { CallToAction } from "../call to action/CallToAction";
 import { IntroductionText } from "../introductionText/IntroductionText";
 import { IndexProducts } from "../indexProducts/IndexProducts";
 import "./main.scss";
+import { ItemListContainer } from "../itemListContainer/ItemListContainer";
 
 export const Main = () => {
     return (
@@ -11,7 +12,7 @@ export const Main = () => {
             <CallToAction> </CallToAction>
             <IntroductionText> </IntroductionText>
             <Beneficts> </Beneficts>
-            <IndexProducts/>
+            <ItemListContainer/>
         </div>
     )
 }

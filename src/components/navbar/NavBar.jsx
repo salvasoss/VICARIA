@@ -1,5 +1,5 @@
 import "./navbar.scss"
-import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom"
 
 export const NavBar = () => {
     return (
@@ -23,9 +23,9 @@ export const NavBar = () => {
                 </div>
 
                 <nav className="navbar navbar-expand-lg nav">
-                    <a className="navbar-brand logo" href="#">
+                    <NavLink className="navbar-brand logo" to= "/">
                         <img src="../img/LOGO VICARIA PNG.png" alt="logo sella grietas vicaria" className="logo" />
-                    </a>
+                    </NavLink>
 
                     <button className="navbar-toggler hamburgerMenu" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -34,22 +34,22 @@ export const NavBar = () => {
                     <div className="collapse navbar-collapse ulContainer" id="navbarNav">
                         <ul className="navbar-nav navbarUl">
                             <li className="nav-item active">
-                                <a className="nav-link" href="#">Productos </a>
+                                <NavLink className="nav-link link" to="/Productos"> Productos </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contacto</a>
+                                <NavLink className="nav-link link " to="/Contacto"> Contacto </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Acerca de Vicaria</a>
+                                <NavLink className="nav-link link" to= "/acerca de"> Acerca de Vicaria </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#"> Canales de Venta</a>
+                                <NavLink className="nav-link link" to= "/Canales de venta"> Canales de Venta </NavLink>
                             </li>
                         </ul>
                     </div>
                 </nav>
 
-                
+
             </header>
         </div>
     )
