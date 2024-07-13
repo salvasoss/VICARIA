@@ -40,10 +40,10 @@ export const NavBar = () => {
                                 <NavLink className="nav-link link " to="/Contacto"> Contacto </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link link" to= "/acerca de"> Acerca de Vicaria </NavLink>
+                                <NavLink className="nav-link link" to= "/Acerca de Vicaria"> Acerca de Vicaria </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link link" to= "/Canales de venta"> Canales de Venta </NavLink>
+                                <NavLink className="nav-link link" to= "/Canales de Venta"> Canales de Venta </NavLink>
                             </li>
                         </ul>
                     </div>
