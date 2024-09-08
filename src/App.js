@@ -20,7 +20,7 @@ function App() {
           <Route path='/acerca de' element ={ <h1> acerca de </h1>}/>
           <Route path='/canales de venta' element ={ <h1> canales de venta</h1>}/> */}
           <Route path='/item/:itemId' element = {<ItemDetailContainer/>}/>
-          <Route path='/Productos' element = {<ProductListContainer greeting = {<Greeting/>} />} /> 
+          {/* <Route path='/Productos' element = {<ProductListContainer greeting = {<Greeting/>} />} />  */}
         </Routes>
         
       </BrowserRouter>

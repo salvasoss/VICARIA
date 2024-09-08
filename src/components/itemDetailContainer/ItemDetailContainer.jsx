@@ -6,10 +6,11 @@ import { useParams } from "react-router-dom"
 import { Spinner } from "react-bootstrap"
 
 
+
  const ItemDetailContainer = () => {
         const {itemId} = useParams()
     const [loading, setLoading] = useState (false)
-      const [producto, setProducto] = useState ({}) 
+      const [producto, setProducto] = useState (null) 
 
      useEffect (() => {
         setLoading(true)
@@ -26,8 +27,20 @@ import { Spinner } from "react-bootstrap"
 
     return (
         <div>
-            <ItemDetail producto = {producto} />
-        </div>
+        {producto ? (
+            <ItemDetail producto={producto} />
+            
+        ) : (
+            loading ? (
+                <Spinner animation="border" />
+            ) : (
+                <p>No se encontró el producto.</p>
+            )
+        )}
+
+        
+        
+    </div>
     )
 }
 

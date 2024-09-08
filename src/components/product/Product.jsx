@@ -10,7 +10,7 @@ export const Product = ({ product }) => {
                     <img src={product.image} alt={product.name}/>
                     <h3> {product.class}</h3>
                     <h2> {product.name}</h2>
-                    <button> VER PRODUCTO </button>
+                   
                 </div>
             </NavLink>
 

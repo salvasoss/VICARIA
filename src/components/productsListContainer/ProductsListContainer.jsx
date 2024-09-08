@@ -7,12 +7,13 @@ import { useParams } from "react-router-dom";
 import Spinner from 'react-bootstrap/Spinner';
 
 
-export const ProductListContainer = ({greeting}) => {
+export const ProductListContainer = () => {
     const [products, setProducts] = useState ([])
     const [loading, setLoading] = useState (false)
     const {categoryId} = useParams ()
+    
 
-
+    
     useEffect (() => {
         setLoading(true)
         getProducts ()
@@ -27,6 +28,7 @@ export const ProductListContainer = ({greeting}) => {
         .finally (() => setLoading(false))
     }, [categoryId]) //array de dependencias: solo se ejecuta la promesa cuando aparezca categoryID
     
+    
     if (loading) {
         return <Spinner animation="border"/>;
     }
@@ -34,10 +36,8 @@ export const ProductListContainer = ({greeting}) => {
     return (
         <div>
             
-            <div className="title">
-                {greeting}
-            </div>
-
+            
+           
             <ProductsList products = {products}/> 
 
         </div>

@@ -12,7 +12,7 @@ const ControlledCarousel = () => {
   };
 
   return (
-    <Carousel interval = {4000} controls = {false} indicators = {false} activeIndex={index} onSelect={handleSelect} slide = {true}>
+    <Carousel interval = {3000} controls = {false} indicators = {false} activeIndex={index} onSelect={handleSelect} slide = {true}>
       <Carousel.Item as= "div" className='carouselDivImg'>
         <img src='./img/bloque de cilindros.jpg' alt='bloque de cilindros' text="First slide"/>
       </Carousel.Item>
