@@ -56,8 +56,8 @@ export const SalesChannels = () => {
                 <div className="saleChannel">
                 
                      <img src="./img/whatsapp.png" alt="whatsapp" /> 
-                     <NavLink to=""> <button className="saleChannelButtonWhatsapp"> Whatsapp </button>     </NavLink> 
-                 
+                     <NavLink to=""> <button className="saleChannelButtonWhatsapp"> Whatsapp </button>
+                     </NavLink> 
                 </div>
             </div>
         </div>

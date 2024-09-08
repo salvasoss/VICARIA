@@ -15,7 +15,7 @@
         justify-content: space-around;
 
         .saleChannel {
-            width: 8%;
+            width: 9%;
             height: auto;
             cursor: pointer;
             padding: 1rem;
@@ -25,7 +25,7 @@
             gap: 10%;
 
             &:hover {
-                width: 9%;
+                width: 10%;
                 transition: all .7s;
             }
 
@@ -57,9 +57,45 @@
                 }
             }
 
-            .saleChannelButtonML{
+            .saleChannelButtonML {
+                width: 12rem;
+                background: #ffcc00;
+                background-image: -webkit-linear-gradient(top, #ffcc00, #cca406);
+                border-radius: 28px;
+                box-shadow: 1px 2px 3px #757575;
+                font-family: Arial;
+                color: #ffffff;
+                font-size: 20px;
+                padding: 10px 20px 10px 20px;
+                text-decoration: none;
 
-                
+                &:hover {
+                    background: #deb200;
+                    background-image: -webkit-linear-gradient(top, #deb200, #ffcc00);
+
+                    text-decoration: none;
+                }
+
+            }
+
+            .saleChannelButtonWhatsapp {
+                background: #25d366;
+                background-image: -webkit-linear-gradient(top, #25d366, #20f76f);
+                border-radius: 28px;
+                box-shadow: 1px 2px 3px #757575;
+                font-family: Arial;
+                color: #ffffff;
+                font-size: 20px;
+                padding: 10px 20px 10px 20px;
+                text-decoration: none;
+
+                &:hover {
+                    background: #20f76f;
+                    background-image: -webkit-linear-gradient(top, #20f76f, #25d366);
+                    text-decoration: none;
+                }
+
+
             }
         }
     }
